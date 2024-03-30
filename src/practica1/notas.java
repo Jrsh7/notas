@@ -81,7 +81,7 @@ public class notas {
 		acu2 = uf2 * 0.35;
 		acu3 = uf3 * 0.30;
 		
-		def = acu1 + acu2+ acu3;
+		notaF = acu1 + acu2+ acu3;
 		
 		
 	}
@@ -99,7 +99,7 @@ public class notas {
 		System.out.println(" acumuado 2 = "+ acu2);
 		System.out.println(" acumuado 3 = "+ acu3);
 		
-		System.out.println(" nota definitiva es = "+ def);
+		System.out.println(" nota definitiva es = "+ notaF);
 		
 	}
 	/**
