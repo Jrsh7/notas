@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class notas {
 	//declaramos la variables que nos hacen falta
 	double uf1, uf2, uf3;
-	double acu1, acu2, acu3, def;
+	double acu1, acu2, acu3, notaF;
 	//utilizamos scanner para poder introducir datos
 	Scanner entrada = new Scanner(System.in);
 	
@@ -110,10 +110,10 @@ public class notas {
 
 	public void aprobado() {
 			
-			if(def<5 && def>=0) {
+			if(notaF<5 && notaF>=0) {
 				System.out.println("suspendio");
 			}else {
-				if (def>=5 && def<=10 ) {
+				if (notaF>=5 && notaF<=10 ) {
 				System.out.println("aprobado");
 				}else {
 					System.out.println(" error en la notas");
